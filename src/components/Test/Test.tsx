@@ -6,7 +6,6 @@ export type Props = {
 
 function Test(props: Props) {
   const { children } = props;
-
   return <div>{children}</div>;
 }
 
